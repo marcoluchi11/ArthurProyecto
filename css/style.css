@@ -1,4 +1,11 @@
 body {
-  background: #fffdd0;
+  background: white;
+  background: radial-gradient(circle, white 0%, #bb9f00 47%);
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  height: 70vh;
 }
 /*# sourceMappingURL=style.css.map */
