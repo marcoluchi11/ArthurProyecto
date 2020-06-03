@@ -9,7 +9,10 @@
   </head>
   <body>
     <!-- COMIENZO NAVEGACION -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav
+      id="home"
+      class="navbar navbar-expand-lg fixed-top py-3 navbar-light bg-light"
+    >
       <div class="container">
         <!-- NOMBRE EMPRESA -->
         <a class="navbar-brand" href="#">Arthur</a>
@@ -27,7 +30,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="#home"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
@@ -47,19 +50,37 @@
     </nav>
     <!-- FIN DE NAVEGACION -->
     <div class="container">
-      <div class="row">
-        <section id="productos">
-          Prueba 1
+      <div
+        class="row"
+        style="display: flex; justify-content: center; align-items: flex-start;"
+        id="productos"
+      >
+        <!-- SECCION PRODUCTOS -->
+        <section>
+          <h1 class="mayus">
+            Ventas de mix de frutos secos
+          </h1>
+          <hr class="divider my-4" />
+          <p>de Joni y Aye Torresi</p>
+          <p>Casilda - Santa Fe</p>
         </section>
       </div>
       <div class="row">
+        <!-- SECCION NOSOTROS -->
         <section id="nosotros">
-          Prueba 2
+          <p>Quienes somos ?</p>
+          <p>
+            Somos Joni y Aye, El objetivo de nuestro emprendimiento es enseñar a
+            la gente a alimentarse de manera adecuada con la venta que nosotros
+            proponemos
+          </p>
         </section>
       </div>
       <div class="row">
+        <!-- SECCION CONTACTO -->
         <section id="contacto">
-          Prueba 3
+          <p>Numero de telefono : 3416692059</p>
+          <p>Instagram: @arthurfrutossecos</p>
         </section>
       </div>
     </div>
