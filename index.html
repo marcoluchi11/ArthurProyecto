@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arthur</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -11,13 +15,13 @@
     <!-- COMIENZO NAVEGACION -->
     <nav
       id="home"
-      class="navbar navbar-expand-lg fixed-top py-3 navbar-light bg-light"
+      class="navbar navbar-expand-md fixed-top py-3 navbar-dark bg-dark"
     >
       <div class="container">
         <!-- NOMBRE EMPRESA -->
         <a class="navbar-brand" href="#">Arthur</a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler navbar-toggler-right"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -28,11 +32,9 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#home"
-                >Home <span class="sr-only">(current)</span></a
-              >
+          <ul class="navbar-nav ml-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
             </li>
             <!-- OPCIONES -->
             <li class="nav-item">
@@ -49,20 +51,40 @@
       </div>
     </nav>
     <!-- FIN DE NAVEGACION -->
-    <div class="container">
+    <div class="container-fluid">
       <div
         class="row"
         style="display: flex; justify-content: center; align-items: flex-start;"
-        id="productos"
+        id="header"
       >
         <!-- SECCION PRODUCTOS -->
         <section>
-          <h1 class="mayus">
+          <h1 class="mayus ml-3">
             Ventas de mix de frutos secos
           </h1>
           <hr class="divider my-4" />
           <p>de Joni y Aye Torresi</p>
           <p>Casilda - Santa Fe</p>
+        </section>
+      </div>
+      <div
+        class="row"
+        style="display: flex; justify-content: center; align-items: flex-start;"
+        id="productos"
+      >
+        <section>
+          <h1>Tenemos lo que buscas</h1>
+          <hr class="divider my-4" />
+          <div class="col-md-12">
+            <img class="img-fluid" src="imgs/castanas.jpg" alt="" />
+            <img class="img-fluid" src="imgs/nuts.jpg" alt="" />
+            <img class="img-fluid rounded" src="imgs/mixEuropeo.jpg" alt="" />
+          </div>
+          <div class="col-md-12">
+            <img class="img-fluid" src="imgs/mixtropical.jpg" alt="" />
+            <img class="img-fluid" src="imgs/nuez.jpg" alt="" />
+            <img class="img-fluid" src="imgs/mani.jpg" alt="" />
+          </div>
         </section>
       </div>
       <div class="row">
