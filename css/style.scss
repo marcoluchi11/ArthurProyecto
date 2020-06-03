@@ -1,14 +1,41 @@
 body {
-  background: rgb(255, 255, 255);
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(187, 159, 0, 1) 47%
-  );
+  scroll-behavior: smooth;
+
   margin: 0;
   padding: 0;
 }
 
+.navbar-brand {
+  font-size: 30px;
+}
+.navbar-brand:hover {
+  color: grey !important;
+}
+#navbarNav {
+  display: flex;
+  justify-content: flex-end;
+}
+.mayus {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+#productos {
+  background: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.8) 0%,
+      rgba(92, 77, 66, 0.8) 100%
+    ),
+    url("https://img.huffingtonpost.com/asset/5c8a8590360000a61b6b9326.jpeg?ops=scalefit_630_noupscale");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 section {
+  margin-top: 5px;
   height: 70vh;
+}
+hr.divider {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: #f4623a;
 }
