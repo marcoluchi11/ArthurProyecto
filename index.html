@@ -73,17 +73,82 @@
         id="productos"
       >
         <section>
-          <h1>Tenemos lo que buscas</h1>
-          <hr class="divider my-4" />
-          <div class="col-md-12">
-            <img class="img-fluid" src="imgs/castanas.jpg" alt="" />
-            <img class="img-fluid" src="imgs/nuts.jpg" alt="" />
-            <img class="img-fluid rounded" src="imgs/mixEuropeo.jpg" alt="" />
-          </div>
-          <div class="col-md-12">
-            <img class="img-fluid" src="imgs/mixtropical.jpg" alt="" />
-            <img class="img-fluid" src="imgs/nuez.jpg" alt="" />
-            <img class="img-fluid" src="imgs/mani.jpg" alt="" />
+          <div class="col-12 mt-3">
+            <div
+              class="carousel slide"
+              id="principal-carousel"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li data-target="#principal-carousel" data-slide-to="0"></li>
+                <li data-target="#principal-carousel" data-slide-to="1"></li>
+                <li data-target="#principal-carousel" data-slide-to="2"></li>
+                <li data-target="#principal-carousel" data-slide-to="3"></li>
+                <li data-target="#principal-carousel" data-slide-to="4"></li>
+                <li data-target="#principal-carousel" data-slide-to="5"></li>
+                <li data-target="#principal-carousel" data-slide-to="6"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="carousel-caption d-block">
+                    <h4>Mani con/sin sal</h4>
+                  </div>
+                  <img src="imgs/mani.jpg" alt="" />
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption d-block">
+                    <h4>Nuez mariposa</h4>
+                  </div>
+                  <img src="imgs/nuez.jpg" alt="" />
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption d-block">
+                    <h4>Castaña Caju</h4>
+                  </div>
+                  <img src="imgs/castanas.jpg" alt="" />
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption d-block">
+                    <h4>Mix Tropical</h4>
+                  </div>
+                  <img src="imgs/mixtropical.jpg" alt="" />
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption d-block">
+                    <h4>Mix europeo</h4>
+                  </div>
+                  <img src="imgs/mixEuropeo.jpg" alt="" />
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption d-block">
+                    <h4>Pistacho</h4>
+                  </div>
+                  <img src="imgs/pistacho.jpg" alt="" />
+                </div>
+              </div>
+              <a
+                href="#principal-carousel"
+                class="carousel-control-prev"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span
+                ><span class="sr-only">Anterior</span>
+              </a>
+              <a
+                href="#principal-carousel"
+                class="carousel-control-next"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span
+                ><span class="sr-only">Anterior</span>
+              </a>
+            </div>
           </div>
         </section>
       </div>
