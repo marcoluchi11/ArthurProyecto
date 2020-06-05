@@ -46,6 +46,10 @@ body {
   background-position: center;
 }
 
+#nosotros p {
+  text-align: center;
+}
+
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
@@ -107,5 +111,11 @@ img {
           justify-content: center;
   height: 40px;
   width: 40px;
+}
+
+strong {
+  font-weight: 700;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */

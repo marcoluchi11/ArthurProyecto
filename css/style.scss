@@ -49,6 +49,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  p {
+    text-align: center;
+  }
 }
 
 hr.divider {
@@ -99,4 +102,9 @@ img {
     height: 40px;
     width: 40px;
   }
+}
+strong {
+  font-weight: 700;
+  font-size: 25px;
+  font-family: $fuente;
 }
