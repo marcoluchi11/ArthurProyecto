@@ -1,5 +1,23 @@
 $color: #b1b1b1;
 $fuente: "Roboto", sans-serif;
+$altura: 100vh;
+
+@media all and (min-width: 420px) {
+  #productos {
+    img {
+      height: 600px !important;
+      width: 700px !important;
+    }
+  }
+  #nosotros {
+    .centrado {
+      width: 25%;
+      margin: 0 auto;
+      padding-top: 7px;
+      font-size: 25px;
+    }
+  }
+}
 body {
   margin: 0;
   padding: 0;
@@ -24,10 +42,12 @@ body {
 .titulosecundario {
   color: white;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 38px;
+  padding-top: 100px;
+  text-align: center;
 }
 #header {
-  padding-top: 150px !important;
+  padding-top: 170px !important;
   background: linear-gradient(
       to bottom,
       rgba(92, 77, 66, 0.8) 0%,
@@ -37,7 +57,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: $altura;
+  text-align: center;
 }
 #nosotros {
   background: linear-gradient(
@@ -45,13 +66,18 @@ body {
       rgba(92, 77, 66, 0.8) 0%,
       rgba(92, 77, 66, 0.8) 100%
     ),
-    url("https://img.huffingtonpost.com/asset/5c8b345a2000004504706492.jpeg?ops=scalefit_630_noupscale");
+    url("https://www.profedeele.es/wp-content/uploads/2014/10/Frutos-Secos.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: $altura;
   p {
     text-align: center;
   }
+}
+.centrado {
+  text-align: center;
+  width: 100% !important;
 }
 
 hr.divider {
@@ -75,8 +101,7 @@ section {
     padding-top: 5px;
   }
 }
-#productos,
-#contacto {
+#productos {
   background: linear-gradient(
       to bottom,
       rgba(92, 77, 66, 0.8) 0%,
@@ -88,6 +113,20 @@ section {
   background-position: center;
   display: flex;
   justify-content: center;
+}
+#contacto {
+  background: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.8) 0%,
+      rgba(92, 77, 66, 0.8) 100%
+    ),
+    url("https://image.freepik.com/foto-gratis/arreglo-alimenticio-frutos-secos-nueces_23-2148258698.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  height: 50vh;
 }
 img {
   width: 300px;
@@ -107,4 +146,22 @@ strong {
   font-weight: 700;
   font-size: 25px;
   font-family: $fuente;
+}
+.socialmedia {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.instagram {
+  a {
+    color: orange;
+  }
+  a:hover {
+    color: lightblue;
+  }
+}
+#logo {
+  height: 60px;
+  width: 100px;
 }
