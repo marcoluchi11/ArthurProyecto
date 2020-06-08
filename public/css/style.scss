@@ -2,11 +2,11 @@ $color: #b1b1b1;
 $fuente: "Roboto", sans-serif;
 $altura: 100vh;
 
-@media all and (min-width: 420px) {
+@media all and (min-width: 400px) {
   #productos {
     img {
-      height: 600px !important;
-      width: 700px !important;
+      height: 450px !important;
+      width: 500px !important;
     }
   }
   #nosotros {
@@ -26,9 +26,6 @@ body {
   font-family: $fuente;
 }
 
-.navbar-brand:hover {
-  color: grey !important;
-}
 #home {
   padding-bottom: 5px;
 }
@@ -41,11 +38,12 @@ body {
   color: white;
   font-weight: 300;
   font-size: 38px;
-  padding-top: 100px;
+  padding-top: 60px;
   text-align: center;
 }
 #header {
   padding-top: 170px !important;
+  padding-bottom: 120px !important;
   background: linear-gradient(
       to bottom,
       rgba(92, 77, 66, 0.8) 0%,
@@ -55,7 +53,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: $altura;
+
   text-align: center;
 }
 #nosotros {
@@ -68,10 +66,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: $altura;
   p {
     text-align: center;
   }
+  padding-bottom: 30px;
 }
 .centrado {
   text-align: center;
@@ -124,7 +122,6 @@ section {
   background-position: center;
   display: flex;
   justify-content: center;
-  height: 50vh;
 }
 img {
   width: 300px;
