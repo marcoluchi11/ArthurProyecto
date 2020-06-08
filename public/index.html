@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arthur</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- COMIENZO NAVEGACION -->
+    <nav
+      id="home"
+      class="navbar navbar-expand-md fixed-top navbar-dark bg-dark"
+    >
+      <div class="container">
+        <!-- NOMBRE EMPRESA -->
+        <a class="navbar-brand" href="#top"
+          ><img src="imgs/logo.jpg" alt="logardo" id="logo"
+        /></a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active js-scroll-trigger" href="#top">Home</a>
+            </li>
+            <!-- OPCIONES -->
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#productos"
+                >Productos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#nosotros"
+                >Nosotros</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contacto"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- FIN DE NAVEGACION -->
+    <div class="container-fluid">
+      <div
+        class="row"
+        style="display: flex; justify-content: center; align-items: flex-start;"
+        id="header"
+      >
+        <!-- SECCION PRODUCTOS -->
+        <section>
+          <h1 class="mayus ml-3">
+            Ventas de mix de frutos secos
+          </h1>
+          <hr class="divider my-4" />
+          <div class="textoEncabezado">
+            <p>de Joni y Aye Torresi</p>
+            <p>Casilda - Santa Fe</p>
+          </div>
+        </section>
+      </div>
+      <!-- SECCION PRODUCTOS -->
+      <div
+        class="row"
+        style="display: flex; justify-content: center; align-items: flex-start;"
+        id="productos"
+      >
+        <section>
+          <div class="col-12 mt-3 mb-3">
+            <div
+              class="carousel slide"
+              id="principal-carousel"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li data-target="#principal-carousel" data-slide-to="0"></li>
+                <li data-target="#principal-carousel" data-slide-to="1"></li>
+                <li data-target="#principal-carousel" data-slide-to="2"></li>
+                <li data-target="#principal-carousel" data-slide-to="3"></li>
+                <li data-target="#principal-carousel" data-slide-to="4"></li>
+                <li data-target="#principal-carousel" data-slide-to="5"></li>
+                <li data-target="#principal-carousel" data-slide-to="6"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="carousel-caption d-block">
+                    <h4>Mani con/sin sal</h4>
+                  </div>
+                  <img src="imgs/mani.jpg" alt="" />
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption d-block">
+                    <h4>Nuez mariposa</h4>
+                  </div>
+                  <img src="imgs/nuez.jpg" alt="" />
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption d-block">
+                    <h4>Castaña Caju</h4>
+                  </div>
+                  <img src="imgs/castanas.jpg" alt="" />
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption d-block">
+                    <h4>Mix Tropical</h4>
+                  </div>
+                  <img src="imgs/mixtropical2.jpg" alt="" />
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption d-block">
+                    <h4>Mix europeo</h4>
+                  </div>
+                  <img src="imgs/mixEuropeo.jpg" alt="" />
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption d-block">
+                    <h4>Pistacho</h4>
+                  </div>
+                  <img src="imgs/pistacho2.jpg" alt="" />
+                </div>
+              </div>
+              <a
+                href="#principal-carousel"
+                class="carousel-control-prev"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span
+                ><span class="sr-only">Anterior</span>
+              </a>
+              <a
+                href="#principal-carousel"
+                class="carousel-control-next"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span
+                ><span class="sr-only">Anterior</span>
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- FIN SECCION PRODUCTOS -->
+      <div
+        class="row"
+        id="nosotros"
+        style="display: flex; justify-content: center; align-items: flex-start;"
+      >
+        <section>
+          <h1 class="titulosecundario">A tu servicio</h1>
+          <hr class="divider my-4" />
+          <p><strong>Hola soy Joni Torresi</strong></p>
+          <div class="container">
+            <p class="centrado">
+              Creo que los frutos secos nos proveen de un gran cantidad de
+              nutrientes, necesarios en cualquier alimentacion saludable y mi
+              idea es ayudar a la gente a consumir y conocer mas acerca de los
+              mismos.
+            </p>
+          </div>
+        </section>
+      </div>
+      <!-- SECCION NOSOTROS -->
+
+      <div class="row" id="contacto">
+        <div class="col-12">
+          <!-- SECCION CONTACTO -->
+          <section>
+            <h1 class="titulosecundario mt-3">
+              Ponete en contacto con nosotros
+            </h1>
+            <hr class="divider my-4" />
+            <div class="socialmedia mt-5">
+              <div class="whatsapp mr-5">
+                <a href="https://api.whatsapp.com/send?phone=543464553007">
+                  <img src="imgs/001-whatsapp.svg" alt=""
+                /></a>
+                <a
+                  href="https://api.whatsapp.com/send?phone=543464553007"
+                  target="_blank"
+                >
+                  <p class="mt-2">+54 3464553007</p></a
+                >
+              </div>
+              <div class="instagram">
+                <a
+                  href="https://www.instagram.com/arthurfrutossecos/"
+                  target="_blank"
+                >
+                  <img src="imgs/002-instagram-bosquejado.svg" alt="" />
+                </a>
+                <p class="mt-2">
+                  <a
+                    href="https://www.instagram.com/arthurfrutossecos/"
+                    target="_blank"
+                    >@arthurfrutossecos</a
+                  >
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
+<!-- STUFF TO DO: -->
+
+<!--
+ el nav bar me haga hover en la seccion que estoy
+ Cambiar fondos de imagen,no usar el mismo en todas las secciones
+Cambiar algunas imagenes que no quedan bien
+mas vh en secciones contacto 
+separar textos en el header
+-->
