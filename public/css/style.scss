@@ -2,11 +2,22 @@ $color: #b1b1b1;
 $fuente: "Roboto", sans-serif;
 $altura: 100vh;
 
-@media all and (min-width: 450px) {
+@media all and (min-width: 800px) {
   #productos {
     img {
       height: 450px !important;
       width: 500px !important;
+    }
+  }
+}
+@media all and (max-width: 799px) and (min-width: 400px) {
+  #header {
+    height: 37em !important;
+  }
+  #productos {
+    img {
+      height: 300px !important;
+      width: 350px !important;
     }
   }
   #nosotros {
@@ -44,6 +55,7 @@ body {
 #header {
   padding-top: 170px !important;
   padding-bottom: 120px !important;
+  height: 50em;
   background: linear-gradient(
       to bottom,
       rgba(92, 77, 66, 0.8) 0%,
@@ -57,6 +69,7 @@ body {
   text-align: center;
 }
 #nosotros {
+  height: 36em;
   background: linear-gradient(
       to bottom,
       rgba(92, 77, 66, 0.8) 0%,
@@ -98,6 +111,7 @@ section {
   }
 }
 #productos {
+  height: 40em;
   background: linear-gradient(
       to bottom,
       rgba(92, 77, 66, 0.8) 0%,
